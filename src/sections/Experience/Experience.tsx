@@ -1,3 +1,5 @@
+import { motion } from "framer-motion";
+
 const Experience = () => {
   return (
     <section className=" bg-zinc-800">
@@ -10,7 +12,16 @@ const Experience = () => {
             Discover the experiences that have shaped my professional journey
           </h3>
         </div>
-        <div className="TextContainer flex flex-col w-[70%] md:px-20 ">
+        <motion.div
+          initial={{ opacity: 0.0, y: 50 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          transition={{
+            delay: 0.3,
+            duration: 0.7,
+            ease: "easeInOut",
+          }}
+          className="TextContainer flex flex-col w-[70%] md:px-20 "
+        >
           <div className="Title flex flex-col gap-y-2">
             <h1 className=" font-manrope font-extrabold text-3xl bg-clip-text text-transparent bg-gradient-to-r from-slate-400 to-white">
               Internship Experience at TechWelf
@@ -44,7 +55,7 @@ const Experience = () => {
             integration, and collaborative software design, while allowing me to
             contribute to an impactful solution for inventory management.
           </h4>
-        </div>
+        </motion.div>
       </div>
     </section>
   );
