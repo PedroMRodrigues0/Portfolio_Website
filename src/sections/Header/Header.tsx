@@ -1,6 +1,6 @@
 import { useState } from "react";
-import Sidebar from "../../components/Sidebar";
-import NavBar from "../../components/NavBar";
+import Sidebar from "../../components/Header/Sidebar";
+import NavBar from "../../components/Header/NavBar";
 
 const Header = () => {
   const [isSidebarOpen, setIsSidebarOpen] = useState(false);
@@ -10,8 +10,8 @@ const Header = () => {
   };
 
   return (
-    <header className=" flex flex-row w-full h-20 items-center p-2 ">
-      <div className="flex-grow flex max-md:hidden justify-center">
+    <header className=" flex flex-row w-full h-20 items-center p-2 lg:mb-11 xl:mb-0 ">
+      <div className="flex-grow flex max-lg:hidden justify-center">
         <NavBar />
       </div>
 
@@ -21,7 +21,7 @@ const Header = () => {
         onClick={() => {
           toggleSidebarButton();
         }}
-        className="topBarButton ml-auto p-1 backdrop-blur-2xl rounded-md ring-inset ring-1 ring-zinc-50/[0.02] md:hidden hover:bg-zinc-100/10 active:scale-95"
+        className="topBarButton ml-auto p-1 backdrop-blur-2xl rounded-md ring-inset ring-1 ring-zinc-50/[0.02] lg:hidden hover:bg-zinc-100/10 active:scale-95"
       >
         <svg
           xmlns="http://www.w3.org/2000/svg"

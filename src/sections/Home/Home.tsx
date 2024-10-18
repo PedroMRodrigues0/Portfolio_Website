@@ -1,10 +1,10 @@
 import { motion } from "framer-motion";
-import { AuroraBackground } from "../../components/aurora-background";
+import { AuroraBackground } from "../../components/Section/aurora-background";
 import Header from "../Header/Header";
 
 export const Home = () => {
   return (
-    <section>
+    <>
       <AuroraBackground>
         <motion.div
           className="w-full"
@@ -18,7 +18,7 @@ export const Home = () => {
         >
           <Header />
           <div className="ContentContainer grid md:grid-cols-2">
-            <div className="LeftConatiner flex flex-col pl-20 col-span-1 max-lg:col-span-2 justify-center">
+            <div className="LeftContainer flex flex-col px-10 lg:pl-20 col-span-1 max-lg:col-span-2 justify-center">
               <div className="WorkContainer flex flex-row items-center gap-2 mb-3 pl-[2px]">
                 <img
                   className=" h-8 w-7 rounded-md"
@@ -126,6 +126,6 @@ export const Home = () => {
           </div>
         </motion.div>
       </AuroraBackground>
-    </section>
+    </>
   );
 };

@@ -6,13 +6,13 @@ import Projects from "./sections/Projects/Projects";
 
 function App() {
   return (
-    <>
+    <main className="overflow-hidden">
       <Home />
       <Education />
       <Experience />
       <Projects />
       <Languages />
-    </>
+    </main>
   );
 }
 

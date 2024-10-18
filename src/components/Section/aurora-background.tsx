@@ -1,4 +1,4 @@
-import { cn } from "../lib/utils";
+import { cn } from "../../lib/utils";
 import React, { ReactNode } from "react";
 
 interface AuroraBackgroundProps extends React.HTMLProps<HTMLDivElement> {
@@ -13,7 +13,7 @@ export const AuroraBackground = ({
   ...props
 }: AuroraBackgroundProps) => {
   return (
-    <main className="w-full">
+    <section className="w-full">
       <div
         className={cn("flex h-full bg-zinc-800 transition-bg", className)}
         {...props}
@@ -44,6 +44,6 @@ export const AuroraBackground = ({
         </div>
         {children}
       </div>
-    </main>
+    </section>
   );
 };
