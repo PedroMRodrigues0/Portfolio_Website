@@ -31,7 +31,7 @@ const Experience = () => {
             </h3>
           </div>
 
-          <h4 className="font-manrope leading-8 text-left text-lg text-zinc-200 mt-5 mb-6">
+          <p className="font-manrope leading-8 text-left text-lg text-zinc-200 mt-5 mb-6">
             During my internship at TechWelf, I contributed to the development
             of a mobile application for efficient stock management, designed to
             streamline warehouse organization and inventory control. The project
@@ -54,7 +54,7 @@ const Experience = () => {
             This experience enhanced my skills in mobile app development, API
             integration, and collaborative software design, while allowing me to
             contribute to an impactful solution for inventory management.
-          </h4>
+          </p>
         </motion.div>
       </div>
     </section>

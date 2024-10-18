@@ -7,6 +7,7 @@ export const Home = () => {
     <section>
       <AuroraBackground>
         <motion.div
+          className="w-full"
           initial={{ opacity: 0.0, y: 40 }}
           whileInView={{ opacity: 1, y: 0 }}
           transition={{
@@ -27,9 +28,9 @@ export const Home = () => {
                 <div className="Ping flex h-2 w-2 bg-green-500 rounded-full items-center justify-center ">
                   <div className=" h-2 w-2 bg-green-500 rounded-full animate-ping"></div>
                 </div>
-                <h3 className=" text-zinc-400 font-manrope">
+                <p className=" text-zinc-400 font-manrope">
                   Available for work
-                </h3>
+                </p>
               </div>
               <div className="MainText">
                 <h1 className="font-bold text-7xl max-lg:text-6xl mb-2 font-manrope text-zinc-200">

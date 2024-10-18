@@ -1,9 +1,10 @@
+import LanguageTag from "../../components/LanguageTag";
 import { WobbleCard } from "../../components/wobble-card";
 
 const Projects = () => {
   return (
     <section className=" bg-zinc-700">
-      <div className="MainContainer flex flex-col p-7 xl:px-60">
+      <div className="MainContainer flex flex-col p-7 ">
         <div className="TextContainer flex w-full flex-col items-center p-2 gap-3 mb-10 mt-8">
           <h1 className=" font-manrope font-extrabold text-4xl text-zinc-100">
             Personal Projects
@@ -13,7 +14,7 @@ const Projects = () => {
           </h3>
         </div>
         <div className="GridContainer grid grid-cols-3 max-md:grid-cols-2 grid-rows-2 max-md:grid-rows-3 gap-6 ">
-          <WobbleCard containerClassName="col-span-2 max-md:col-span-3  row-span-1 bg-slate-800  rounded-2xl">
+          <WobbleCard containerClassName="col-span-2 max-lg:col-span-3  row-span-1 bg-slate-800  rounded-2xl">
             <div className="main p-3">
               <div className="Title mb-5">
                 <h1 className=" font-manrope font-extrabold text-3xl text-zinc-100">
@@ -21,7 +22,7 @@ const Projects = () => {
                 </h1>
               </div>
               <div className="TextContainer">
-                <h3 className=" font-manrope font-medium leading-7 text-lg  text-zinc-200">
+                <p className=" font-manrope font-medium leading-7 text-lg  text-zinc-200">
                   Developed a machine learning model using Support Vector
                   Machine (SVM) to predict hotel reservation cancellations based
                   on historical booking data.
@@ -39,11 +40,18 @@ const Projects = () => {
                   to an unlabeled dataset to classify future reservation
                   cancellations, and the results were saved in a CSV file for
                   further analysis.
-                </h3>
+                </p>
+              </div>
+              <div className="Tags mt-8 flex gap-2">
+                <LanguageTag children={"Pandas"} />
+                <LanguageTag children={"SVM"} />
+                <LanguageTag children={"Seaborn"} />
+                <LanguageTag children={"Matplotlib"} />
+                <LanguageTag children={"Scikit-learn"} />
               </div>
             </div>
           </WobbleCard>
-          <WobbleCard containerClassName=" col-span-1 max-md:col-span-3 row-span-1 bg-zinc-800 rounded-2xl">
+          <WobbleCard containerClassName=" col-span-1 max-lg:col-span-3 row-span-1 bg-zinc-800 rounded-2xl">
             <div className="main p-3">
               <div className="Title mb-5">
                 <h1 className=" font-manrope font-extrabold text-3xl text-zinc-100">
@@ -51,14 +59,21 @@ const Projects = () => {
                 </h1>
               </div>
               <div className="TextContainer">
-                <h3 className=" font-manrope font-medium leading-7 text-lg  text-zinc-200">
+                <p className=" font-manrope font-medium leading-7 text-lg  text-zinc-200">
                   StreamingAPP is a Universal Windows Platform (UWP) application
                   designed for users to watch movies and series.
                   <br></br>
                   We implemented a quiz-like set of questions for users who
                   aren’t sure what to watch when it comes to movies or series,
                   which serves as a highlight feature of the app.
-                </h3>
+                </p>
+              </div>
+              <div className="Tags grid  grid-rows-3 grid-cols-3 lg:grid-cols-2 xl:grid-cols-3 max-lg:w-[60%] xl:w-[70%] mt-8 gap-2">
+                <LanguageTag children={"SQLite"} />
+                <LanguageTag children={"REST API"} />
+                <LanguageTag children={"MySQL/SQL"} />
+                <LanguageTag children={"C#"} />
+                <LanguageTag children={"XAML"} />
               </div>
             </div>
           </WobbleCard>
@@ -71,7 +86,7 @@ const Projects = () => {
               </div>
               <div className=" grid grid-cols-2 max-lg:grid-cols-1 gap-6">
                 <div className="TextContainer flex flex-col gap-5">
-                  <h3 className=" font-manrope font-medium leading-7 text-lg  text-zinc-200">
+                  <p className=" font-manrope font-medium leading-7 text-lg  text-zinc-200">
                     CookingApp is a dynamic application designed to simplify the
                     often overwhelming task of deciding what to cook.
                     <br></br>
@@ -81,7 +96,7 @@ const Projects = () => {
                     CookingApp transforms meal planning into a fun and
                     stress-free experience, making it easier to explore new
                     dishes and enjoy cooking every day.
-                  </h3>
+                  </p>
                 </div>
                 <div className="ImageContainer flex flex-row max-lg:justify-center gap-3 p-4">
                   <img
@@ -95,6 +110,11 @@ const Projects = () => {
                     alt=""
                   />
                 </div>
+              </div>
+              <div className="Tags flex w-96 mt-8 gap-2">
+                <LanguageTag children={"React Native"} />
+                <LanguageTag children={"Firebase"} />
+                <LanguageTag children={"TypeScript"} />
               </div>
             </div>
           </WobbleCard>
