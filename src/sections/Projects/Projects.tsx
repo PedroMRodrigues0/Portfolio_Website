@@ -6,6 +6,7 @@ import { WobbleCard } from "../../components/Cards/wobble-card";
 const Projects = () => {
   return (
     <SectionContainer
+      id="projects"
       BackgroundColor="bg-zinc-700"
       Children={
         <>

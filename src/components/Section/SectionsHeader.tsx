@@ -5,7 +5,7 @@ interface SectionsHeaderProps {
 
 const SectionsHeader = ({ Title, SubTitle }: SectionsHeaderProps) => {
   return (
-    <div className="TextContainer flex w-full flex-col items-center p-2 gap-3 mb-10 mt-8">
+    <div className="TextContainer flex w-full flex-col items-center p-2 gap-3 mb-20 mt-8">
       <h1 className=" font-manrope font-extrabold text-4xl text-zinc-100">
         {Title}
       </h1>

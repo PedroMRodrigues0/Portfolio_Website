@@ -5,6 +5,7 @@ import SectionContainer from "../../components/Section/SectionContainer";
 const Experience = () => {
   return (
     <SectionContainer
+      id="experience"
       BackgroundColor="bg-zinc-800"
       Children={
         <>

@@ -2,6 +2,12 @@
 @tailwind components;
 @tailwind utilities;
 
+/* Custom Scrollbar for Firefox */
+html {
+  scrollbar-width: thin; /* Options: auto | thin */
+  scrollbar-color: #bcb7b7 #616161; /* scrollbar thumb and track */
+}
+
 .buttonCV {
   all: unset;
   width: 300px;

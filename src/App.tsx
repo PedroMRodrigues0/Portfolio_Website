@@ -3,7 +3,6 @@ import Experience from "./sections/Experience/Experience";
 import { Home } from "./sections/Home/Home";
 import Languages from "./sections/Languages/Languages";
 import Projects from "./sections/Projects/Projects";
-
 function App() {
   return (
     <main className="overflow-hidden">

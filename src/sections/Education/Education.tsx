@@ -5,6 +5,7 @@ import SectionsHeader from "../../components/Section/SectionsHeader";
 const Education = () => {
   return (
     <SectionContainer
+      id="education"
       BackgroundColor="bg-zinc-700"
       Children={
         <>

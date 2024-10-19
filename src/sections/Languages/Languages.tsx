@@ -5,6 +5,7 @@ import SectionsHeader from "../../components/Section/SectionsHeader";
 const Languages = () => {
   return (
     <SectionContainer
+      id="languages"
       BackgroundColor="bg-zinc-800"
       Children={
         <>
@@ -12,11 +13,12 @@ const Languages = () => {
             Title="Programming Languages"
             SubTitle="Uncover the programming languages that i frequently use"
           />
-          <div className="Content  grid grid-cols-3 grid-rows-2 gap-7">
+          <div className="Content  grid grid-cols-3 grid-rows-2 gap-7 md:gap-20">
             <LanguageCard
               nameTag="HTML"
               children={
                 <svg
+                  className=" md:w-48 md:h-48"
                   fill="#FFFFFF"
                   xmlns="http://www.w3.org/2000/svg"
                   viewBox="0 0 50 50"
@@ -31,14 +33,14 @@ const Languages = () => {
               nameTag="CSS"
               children={
                 <svg
-                  className="mt-[-12px]"
-                  fill="#FFFFFF"
+                  className=" md:w-[219px] md:h-[219px] mt-[-10px] mb-[-10px] md:mt-[-15px] md:mb-[-12px]"
                   xmlns="http://www.w3.org/2000/svg"
-                  viewBox="0 0 50 50"
-                  width="150px"
-                  height="150px"
+                  width="140"
+                  height="140"
+                  viewBox="0 0 30 30"
+                  style={{ fill: "#FFFFFF" }}
                 >
-                  <path d="M 42 6 L 39 40 L 25 44 L 11 40 L 8 6 Z M 16.800781 28 L 20.800781 28 L 20.898438 30.5 L 25 31.898438 L 29.101563 30.5 L 29.398438 26 L 20.601563 26 L 20.398438 22 L 29.601563 22 L 29.898438 18 L 16.101563 18 L 15.800781 14 L 34.101563 14 L 33.601563 22 L 32.898438 33.5 L 25 36.101563 L 17.101563 33.5 Z" />
+                  <path d="M25.428,3.333C25.238,3.121,24.967,3,24.683,3H5.317C5.033,3,4.762,3.121,4.572,3.333c-0.19,0.212-0.28,0.495-0.249,0.777 l2.202,19.823c0.044,0.403,0.329,0.74,0.719,0.851l7.48,2.137c0.09,0.026,0.183,0.039,0.275,0.039s0.185-0.013,0.275-0.039 l7.48-2.137c0.39-0.111,0.674-0.448,0.719-0.851L25.676,4.11C25.708,3.828,25.618,3.545,25.428,3.333z M20.516,13.074l-0.446,7.285 l-5.038,1.647l-5.038-1.647l-0.191-3.484h2.55l0.064,1.584l2.615,0.887l2.615-0.887l0.191-2.85h-5.612l-0.127-2.534h5.867 l0.191-2.534H9.356L9.165,8.006h11.67L20.516,13.074z"></path>
                 </svg>
               }
             />
@@ -46,6 +48,7 @@ const Languages = () => {
               nameTag="JavaScript"
               children={
                 <svg
+                  className=" md:w-48 md:h-48"
                   fill="#FFFFFF"
                   xmlns="http://www.w3.org/2000/svg"
                   viewBox="0 0 50 50"
@@ -60,6 +63,7 @@ const Languages = () => {
               nameTag="TypeScript"
               children={
                 <svg
+                  className=" md:w-48 md:h-48"
                   fill="#FFFFFF"
                   xmlns="http://www.w3.org/2000/svg"
                   viewBox="0 0 50 50"
@@ -74,6 +78,7 @@ const Languages = () => {
               nameTag="Python"
               children={
                 <svg
+                  className=" md:w-48 md:h-48"
                   fill="#FFFFFF"
                   xmlns="http://www.w3.org/2000/svg"
                   viewBox="0 0 50 50"
@@ -88,6 +93,7 @@ const Languages = () => {
               nameTag="C#"
               children={
                 <svg
+                  className=" md:w-48 md:h-48"
                   fill="#FFFFFF"
                   xmlns="http://www.w3.org/2000/svg"
                   viewBox="0 0 50 50"
