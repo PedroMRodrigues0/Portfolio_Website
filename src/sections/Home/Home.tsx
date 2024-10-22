@@ -23,7 +23,7 @@ export const Home = () => {
               <div className="WorkContainer flex flex-row items-center gap-2 mb-3 pl-[2px]">
                 <img
                   className=" h-8 w-7 rounded-md"
-                  src="/src/assets/ProfileImage1.JPG"
+                  src="/Personal_website/portfolio-project/public/ProfileImage1.JPG"
                   alt="PersonalImage"
                 />
                 <div className="Ping flex h-2 w-2 bg-green-500 rounded-full items-center justify-center ">
@@ -117,7 +117,7 @@ export const Home = () => {
               <div className="Content flex w-full h-full">
                 <img
                   className="object-cover w-full h-full opacity-70"
-                  src="/src/assets/ProfileImage.png"
+                  src="/Personal_website/portfolio-project/public/ProfileImage.png"
                   alt=""
                 />
               </div>
