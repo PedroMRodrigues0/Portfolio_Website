@@ -23,7 +23,7 @@ export const Home = () => {
               <div className="WorkContainer flex flex-row items-center gap-2 mb-3 pl-[2px]">
                 <img
                   className=" h-8 w-7 rounded-md"
-                  src="/ProfileImage1.JPG"
+                  src={`${import.meta.env.BASE_URL}ProfileImage1.JPG`}
                   alt="ProfileImage1"
                 />
                 <div className="Ping flex h-2 w-2 bg-green-500 rounded-full items-center justify-center ">
@@ -117,7 +117,7 @@ export const Home = () => {
               <div className="Content flex w-full h-full">
                 <img
                   className="object-cover w-full h-full opacity-70"
-                  src="/ProfileImage.png"
+                  src={`${import.meta.env.BASE_URL}ProfileImage.png`}
                   alt="ProfileImage"
                 />
               </div>

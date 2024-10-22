@@ -105,12 +105,12 @@ const Projects = () => {
                   </div>
                   <div className="ImageContainer flex flex-row max-lg:justify-center gap-3 p-4">
                     <img
-                      src="/CookingApp1.png"
+                      src={`${import.meta.env.BASE_URL}CookingApp1.png`}
                       className=" h-96 object-contain rounded-md"
                       alt="CookingApp1"
                     />
                     <img
-                      src="/CookingApp2.png"
+                      src={`${import.meta.env.BASE_URL}CookingApp2.png`}
                       className=" h-96 object-contain rounded-md"
                       alt="CookingApp2"
                     />
