@@ -24,7 +24,7 @@ const Education = () => {
             >
               <img
                 className=" object-contain"
-                src="/src/assets/80-150.png"
+                src="/src/assets/AemLogo.png"
                 alt="Aem Image"
               />
             </Card>
@@ -37,7 +37,7 @@ const Education = () => {
             >
               <img
                 className=" object-contain"
-                src="/src/assets/ipb_logo.png"
+                src="/src/assets/IpbLogo.png"
                 alt="Ipb Image"
               />
             </Card>

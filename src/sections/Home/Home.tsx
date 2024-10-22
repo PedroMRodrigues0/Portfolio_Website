@@ -23,7 +23,7 @@ export const Home = () => {
               <div className="WorkContainer flex flex-row items-center gap-2 mb-3 pl-[2px]">
                 <img
                   className=" h-8 w-7 rounded-md"
-                  src="/src/assets/IMG_5275.JPG"
+                  src="/src/assets/ProfileImage1.JPG"
                   alt="PersonalImage"
                 />
                 <div className="Ping flex h-2 w-2 bg-green-500 rounded-full items-center justify-center ">
@@ -44,11 +44,11 @@ export const Home = () => {
 
               <div className="Divider h-[1px] w-[93%] bg-zinc-200 rounded-sm mt-8 ml-[5px] "></div>
 
-              <div className="ContactContainer">
+              <div className="ContactContainer ">
                 <h2 className=" font-normal text-2xl max-md:text-xl mb-4 font-manrope text-zinc-200 ml-1 mt-8">
-                  Contact me and see my work
+                  Contact me and explore my work
                 </h2>
-                <div className="ContactInfo flex flex-col gap-y-5">
+                <div className="ContactInfo inline-flex flex-col gap-y-5">
                   <ContactLine
                     name="GitHub"
                     nameContent="Github"

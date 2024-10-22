@@ -15,7 +15,10 @@ const Header = () => {
         <NavBar />
       </div>
 
-      <Sidebar isOpen={isSidebarOpen} />
+      <Sidebar
+        isOpen={isSidebarOpen}
+        closeSidebar={() => setIsSidebarOpen(false)}
+      />
 
       <button
         onClick={() => {

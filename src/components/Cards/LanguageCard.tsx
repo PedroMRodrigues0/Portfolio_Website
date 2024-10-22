@@ -16,7 +16,7 @@ const LanguageCard = ({ children, nameTag }: LanguageCardProps) => {
         duration: 0.7,
         ease: "easeInOut",
       }}
-      className=" col-span-1 row-span-1 flex flex-col items-center gap-2 hover:scale-105 hover:duration-200"
+      className=" col-span-1 row-span-1 flex flex-col items-center gap-2"
     >
       {children}
       <p className="font-manrope text-lg font-semibold text-zinc-50">

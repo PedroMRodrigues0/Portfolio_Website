@@ -69,12 +69,16 @@ const Projects = () => {
                     which serves as a highlight feature of the app.
                   </p>
                 </div>
-                <div className="Tags grid  grid-rows-3 grid-cols-3 lg:grid-cols-2 xl:grid-cols-3 max-lg:w-[60%] xl:w-[70%] mt-8 gap-2">
-                  <LanguageTag children={"SQLite"} />
-                  <LanguageTag children={"REST API"} />
-                  <LanguageTag children={"MySQL/SQL"} />
-                  <LanguageTag children={"C#"} />
-                  <LanguageTag children={"XAML"} />
+                <div className="Tags flex flex-row md:flex-col gap-2 mt-8">
+                  <div className=" flex flex-row gap-2">
+                    <LanguageTag children={"SQLite"} />
+                    <LanguageTag children={"REST API"} />
+                  </div>
+                  <div className=" flex flex-row gap-2">
+                    <LanguageTag children={"MySQL/SQL"} />
+                    <LanguageTag children={"C#"} />
+                    <LanguageTag children={"XAML"} />
+                  </div>
                 </div>
               </div>
             </WobbleCard>

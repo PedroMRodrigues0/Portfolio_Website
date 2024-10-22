@@ -11,14 +11,14 @@ const Languages = () => {
         <>
           <SectionsHeader
             Title="Programming Languages"
-            SubTitle="Uncover the programming languages that i frequently use"
+            SubTitle="Discover the programming languages I've already had contact with"
           />
-          <div className="Content  grid grid-cols-3 grid-rows-2 gap-7 md:gap-20">
+          <div className="Content grid grid-cols-3 grid-rows-2 gap-7 md:gap-20">
             <LanguageCard
               nameTag="HTML"
               children={
                 <svg
-                  className=" md:w-48 md:h-48"
+                  className=" md:w-48 md:h-48 hover:scale-105"
                   fill="#FFFFFF"
                   xmlns="http://www.w3.org/2000/svg"
                   viewBox="0 0 50 50"
@@ -33,7 +33,7 @@ const Languages = () => {
               nameTag="CSS"
               children={
                 <svg
-                  className=" md:w-[219px] md:h-[219px] mt-[-10px] mb-[-10px] md:mt-[-15px] md:mb-[-12px]"
+                  className=" md:w-[219px] md:h-[219px] mt-[-10px] mb-[-10px] md:mt-[-15px] md:mb-[-12px] hover:scale-105"
                   xmlns="http://www.w3.org/2000/svg"
                   width="140"
                   height="140"
@@ -48,7 +48,7 @@ const Languages = () => {
               nameTag="JavaScript"
               children={
                 <svg
-                  className=" md:w-48 md:h-48"
+                  className=" md:w-48 md:h-48 hover:scale-105"
                   fill="#FFFFFF"
                   xmlns="http://www.w3.org/2000/svg"
                   viewBox="0 0 50 50"
@@ -63,7 +63,7 @@ const Languages = () => {
               nameTag="TypeScript"
               children={
                 <svg
-                  className=" md:w-48 md:h-48"
+                  className=" md:w-48 md:h-48 hover:scale-105"
                   fill="#FFFFFF"
                   xmlns="http://www.w3.org/2000/svg"
                   viewBox="0 0 50 50"
@@ -78,7 +78,7 @@ const Languages = () => {
               nameTag="Python"
               children={
                 <svg
-                  className=" md:w-48 md:h-48"
+                  className=" md:w-48 md:h-48 hover:scale-105"
                   fill="#FFFFFF"
                   xmlns="http://www.w3.org/2000/svg"
                   viewBox="0 0 50 50"
@@ -93,7 +93,7 @@ const Languages = () => {
               nameTag="C#"
               children={
                 <svg
-                  className=" md:w-48 md:h-48"
+                  className=" md:w-48 md:h-48 hover:scale-105"
                   fill="#FFFFFF"
                   xmlns="http://www.w3.org/2000/svg"
                   viewBox="0 0 50 50"
