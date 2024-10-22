@@ -105,14 +105,14 @@ const Projects = () => {
                   </div>
                   <div className="ImageContainer flex flex-row max-lg:justify-center gap-3 p-4">
                     <img
-                      src="/Personal_website/portfolio-project/public/CookingApp1.png"
+                      src="/CookingApp1.png"
                       className=" h-96 object-contain rounded-md"
-                      alt=""
+                      alt="CookingApp1"
                     />
                     <img
-                      src="/Personal_website/portfolio-project/public/CookingApp2.png"
+                      src="/CookingApp2.png"
                       className=" h-96 object-contain rounded-md"
-                      alt=""
+                      alt="CookingApp2"
                     />
                   </div>
                 </div>
