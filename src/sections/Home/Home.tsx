@@ -18,8 +18,8 @@ export const Home = () => {
           }}
         >
           <Header />
-          <div className="ContentContainer grid md:grid-cols-2">
-            <div className="LeftContainer flex flex-col px-10 lg:pl-20 col-span-1 max-lg:col-span-2 justify-center">
+          <div className="ContentContainer grid md:grid-cols-2 lg:h-[600px] 2xl:h-full">
+            <div className="LeftContainer flex flex-col px-2 md:px-10 lg:pl-20 col-span-1 max-lg:col-span-2 justify-center min-h-0">
               <div className="WorkContainer flex flex-row items-center gap-2 mb-3 pl-[2px]">
                 <img
                   className=" h-8 w-7 rounded-md"
@@ -34,18 +34,18 @@ export const Home = () => {
                 </p>
               </div>
               <div className="MainText">
-                <h1 className="font-bold text-7xl max-lg:text-6xl mb-2 font-manrope text-zinc-200">
+                <h1 className="font-bold max-sm:text-4xl sm:text-6xl md:text-7xl lg:text-5xl xl:text-[60px] 2xl:text-7xl  mb-2 font-manrope text-zinc-200">
                   Pedro Rodrigues
                 </h1>
-                <h1 className=" font-extrabold text-7xl max-md:text-5xl max-lg:text-6xl font-manrope text-zinc-300 text-opacity-70">
+                <h1 className=" font-extrabold max-sm:text-3xl sm:text-5xl md:text-6xl  lg:text-4xl xl:text-5xl 2xl:text-6xl font-manrope text-zinc-300 text-opacity-70">
                   I'm a Web Developer
                 </h1>
               </div>
 
-              <div className="Divider h-[1px] w-[93%] bg-zinc-200 rounded-sm mt-8 ml-[5px] "></div>
+              <div className="Divider h-[1px] w-[65%] max-sm:w-[85%] md:w-[75%] bg-zinc-200 rounded-sm mt-8 ml-[5px] "></div>
 
               <div className="ContactContainer ">
-                <h2 className=" font-normal text-2xl max-md:text-xl mb-4 font-manrope text-zinc-200 ml-1 mt-8">
+                <h2 className=" font-normal max-sm:text-md max-md:text-xl mb-4 font-manrope text-zinc-200 ml-1 mt-8">
                   Contact me and explore my work
                 </h2>
                 <div className="ContactInfo inline-flex flex-col gap-y-5">
@@ -101,7 +101,11 @@ export const Home = () => {
                 </div>
               </div>
               <div className="ButtonCv flex mt-10 mb-10 max-md:justify-center xl:mb-0">
-                <button className="buttonCV">DOWNLOAD CV</button>
+                <button className="buttonCV">
+                  <p className=" font-manrope font-bold text-sm md:text-xl">
+                    DOWNLOAD CV
+                  </p>
+                </button>
               </div>
             </div>
             <motion.div
@@ -112,7 +116,7 @@ export const Home = () => {
                 duration: 0.8,
                 ease: "easeInOut",
               }}
-              className="ImageConatiner flex max-lg:hidden flex-grow flex-shrink basis-0 col-span-1 max-h-[800px] items-center"
+              className="RightContainer flex max-lg:hidden flex-grow flex-shrink basis-0 col-span-1 max-h-[800px] items-center min-h-0"
             >
               <div className="Content flex w-full h-full">
                 <img

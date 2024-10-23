@@ -19,7 +19,7 @@ const LanguageCard = ({ children, nameTag }: LanguageCardProps) => {
       className=" col-span-1 row-span-1 flex flex-col items-center gap-2"
     >
       {children}
-      <p className="font-manrope text-lg font-semibold text-zinc-50">
+      <p className="font-manrope max-sm:text-md sm:text-lg font-semibold text-zinc-50">
         {nameTag}
       </p>
     </motion.div>

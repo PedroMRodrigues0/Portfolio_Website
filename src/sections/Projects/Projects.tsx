@@ -43,7 +43,7 @@ const Projects = () => {
                     CSV file for further analysis.
                   </p>
                 </div>
-                <div className="Tags mt-8 flex gap-2">
+                <div className="Tags mt-8 flex flex-wrap gap-2">
                   <LanguageTag children={"Pandas"} />
                   <LanguageTag children={"SVM"} />
                   <LanguageTag children={"Seaborn"} />
@@ -69,16 +69,12 @@ const Projects = () => {
                     which serves as a highlight feature of the app.
                   </p>
                 </div>
-                <div className="Tags flex flex-row md:flex-col gap-2 mt-8">
-                  <div className=" flex flex-row gap-2">
-                    <LanguageTag children={"SQLite"} />
-                    <LanguageTag children={"REST API"} />
-                  </div>
-                  <div className=" flex flex-row gap-2">
-                    <LanguageTag children={"MySQL/SQL"} />
-                    <LanguageTag children={"C#"} />
-                    <LanguageTag children={"XAML"} />
-                  </div>
+                <div className="Tags flex flex-wrap gap-2 mt-8">
+                  <LanguageTag children={"SQLite"} />
+                  <LanguageTag children={"REST API"} />
+                  <LanguageTag children={"MySQL/SQL"} />
+                  <LanguageTag children={"C#"} />
+                  <LanguageTag children={"XAML"} />
                 </div>
               </div>
             </WobbleCard>
@@ -111,12 +107,12 @@ const Projects = () => {
                     />
                     <img
                       src={`${import.meta.env.BASE_URL}CookingApp2.png`}
-                      className=" h-96 object-contain rounded-md"
+                      className=" h-96 object-contain rounded-md max-sm:hidden"
                       alt="CookingApp2"
                     />
                   </div>
                 </div>
-                <div className="Tags flex w-96 mt-8 gap-2">
+                <div className="Tags flex flex-wrap mt-8 gap-2">
                   <LanguageTag children={"React Native"} />
                   <LanguageTag children={"Firebase"} />
                   <LanguageTag children={"TypeScript"} />

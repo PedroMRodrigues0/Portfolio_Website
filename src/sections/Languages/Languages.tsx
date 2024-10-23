@@ -18,7 +18,7 @@ const Languages = () => {
               nameTag="HTML"
               children={
                 <svg
-                  className=" md:w-48 md:h-48 hover:scale-105"
+                  className=" max-sm:w-24 max-sm:h-24 md:w-48 md:h-48 hover:scale-105"
                   fill="#FFFFFF"
                   xmlns="http://www.w3.org/2000/svg"
                   viewBox="0 0 50 50"
@@ -33,7 +33,7 @@ const Languages = () => {
               nameTag="CSS"
               children={
                 <svg
-                  className=" md:w-[219px] md:h-[219px] mt-[-10px] mb-[-10px] md:mt-[-15px] md:mb-[-12px] hover:scale-105"
+                  className=" max-sm:w-[110px] max-sm:h-[110px] max-sm:mt-[-7px] max-sm:mb-[-7px] md:w-[219px] md:h-[219px] mt-[-10px] mb-[-10px] md:mt-[-15px] md:mb-[-12px] hover:scale-105"
                   xmlns="http://www.w3.org/2000/svg"
                   width="140"
                   height="140"
@@ -48,7 +48,7 @@ const Languages = () => {
               nameTag="JavaScript"
               children={
                 <svg
-                  className=" md:w-48 md:h-48 hover:scale-105"
+                  className=" max-sm:w-24 max-sm:h-24 md:w-48 md:h-48 hover:scale-105"
                   fill="#FFFFFF"
                   xmlns="http://www.w3.org/2000/svg"
                   viewBox="0 0 50 50"
@@ -63,7 +63,7 @@ const Languages = () => {
               nameTag="TypeScript"
               children={
                 <svg
-                  className=" md:w-48 md:h-48 hover:scale-105"
+                  className=" max-sm:w-24 max-sm:h-24 md:w-48 md:h-48 hover:scale-105"
                   fill="#FFFFFF"
                   xmlns="http://www.w3.org/2000/svg"
                   viewBox="0 0 50 50"
@@ -78,7 +78,7 @@ const Languages = () => {
               nameTag="Python"
               children={
                 <svg
-                  className=" md:w-48 md:h-48 hover:scale-105"
+                  className=" max-sm:w-24 max-sm:h-24 md:w-48 md:h-48 hover:scale-105"
                   fill="#FFFFFF"
                   xmlns="http://www.w3.org/2000/svg"
                   viewBox="0 0 50 50"
@@ -93,7 +93,7 @@ const Languages = () => {
               nameTag="C#"
               children={
                 <svg
-                  className=" md:w-48 md:h-48 hover:scale-105"
+                  className=" max-sm:w-24 max-sm:h-24 md:w-48 md:h-48 hover:scale-105"
                   fill="#FFFFFF"
                   xmlns="http://www.w3.org/2000/svg"
                   viewBox="0 0 50 50"

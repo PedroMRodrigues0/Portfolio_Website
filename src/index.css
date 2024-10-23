@@ -10,7 +10,6 @@ html {
 
 .buttonCV {
   all: unset;
-  width: 300px;
   height: 60px;
   font-size: 16px;
   background: transparent;
@@ -21,7 +20,7 @@ html {
   font-weight: 500;
   cursor: pointer;
   z-index: 1;
-  padding: 10px 20px;
+  padding: 15px 80px;
   display: flex;
   align-items: center;
   justify-content: center;

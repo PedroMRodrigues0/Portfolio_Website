@@ -10,7 +10,7 @@ const Header = () => {
   };
 
   return (
-    <header className=" sticky top-0 z-50 flex flex-row w-full h-20 items-center p-2 lg:mb-11 xl:mb-0 ">
+    <header className="flex flex-row w-full h-20 items-center p-2 ">
       <div className="flex-grow flex max-lg:hidden justify-center">
         <NavBar />
       </div>

@@ -16,7 +16,7 @@ const Education = () => {
           />
           <div className="CardsContainer grid grid-cols-2 max-md:grid-cols-1 mb-20 gap-16 ">
             <Card
-              className=" col-span-1"
+              className=" col-span-1 max-sm:w-[260px]"
               pinTitle="/aemirandela.pt"
               title="Science and Technology"
               date="2017 - 2020"
@@ -29,14 +29,14 @@ const Education = () => {
               />
             </Card>
             <Card
-              className=" col-span-1"
+              className=" col-span-1 max-sm:w-[260px]"
               pinTitle="/estig.ipb.pt"
               title="Graduation, Computer Science"
               date="September 2020 - September 2024"
               href="https://estig.ipb.pt/"
             >
               <img
-                className=" object-contain"
+                className=" object-contain max-sm:w-56"
                 src={`${import.meta.env.BASE_URL}IpbLogo.png`}
                 alt="IpbLogo"
               />

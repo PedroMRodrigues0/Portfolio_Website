@@ -24,15 +24,15 @@ const Experience = () => {
             className="TextContainer flex flex-col md:px-20 "
           >
             <div className="Title flex flex-col gap-y-2">
-              <h1 className=" font-manrope font-extrabold text-3xl bg-clip-text text-transparent bg-gradient-to-r from-slate-400 to-white">
+              <h1 className=" font-manrope font-extrabold max-sm:text-2xl text-3xl bg-clip-text text-transparent bg-gradient-to-r from-slate-400 to-white">
                 Internship Experience at TechWelf
               </h1>
-              <h3 className=" font-manrope font-lg font-semibold text-zinc-400">
+              <h3 className=" font-manrope max-sm:text-sm font-semibold text-zinc-400">
                 September 2023 - September 2024
               </h3>
             </div>
 
-            <p className="font-manrope leading-8 text-left text-lg text-zinc-200 mt-5 mb-6">
+            <p className="font-manrope leading-8 text-left max-sm:text-md text-lg text-zinc-200 mt-5 mb-6">
               During my internship at TechWelf, I contributed to the development
               of a mobile application for efficient stock management, designed
               to streamline warehouse organization and inventory control. The
