@@ -37,21 +37,21 @@ const ScrollToTopButton = () => {
           fill="none"
           xmlns="http://www.w3.org/2000/svg"
         >
-          <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+          <g id="SVGRepo_bgCarrier" strokeWidth="0"></g>
           <g
             id="SVGRepo_tracerCarrier"
-            stroke-linecap="round"
-            stroke-linejoin="round"
+            strokeLinecap="round"
+            strokeLinejoin="round"
             stroke="#CCCCCC"
-            stroke-width="0.144"
+            strokeWidth="0.144"
           ></g>
           <g id="SVGRepo_iconCarrier">
             <path
               d="M12 4.5L17 9.5M12 4.5L7 9.5M12 4.5L12 11M12 14.5C12 16.1667 11 19.5 7 19.5"
               stroke="#f4f4f5"
-              stroke-width="2.232"
-              stroke-linecap="round"
-              stroke-linejoin="round"
+              strokeWidth="2.232"
+              strokeLinecap="round"
+              strokeLinejoin="round"
             ></path>
           </g>
         </svg>

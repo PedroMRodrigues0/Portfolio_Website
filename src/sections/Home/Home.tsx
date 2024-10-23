@@ -2,6 +2,7 @@ import { motion } from "framer-motion";
 import { AuroraBackground } from "../../components/Section/aurora-background";
 import Header from "../Header/Header";
 import ContactLine from "../../components/Contact/ContactLine";
+import DownloadCVButton from "../../components/Button/DownloadCVButton";
 
 export const Home = () => {
   return (
@@ -101,11 +102,7 @@ export const Home = () => {
                 </div>
               </div>
               <div className="ButtonCv flex mt-10 mb-10 max-md:justify-center xl:mb-0">
-                <button className="buttonCV">
-                  <p className=" font-manrope font-bold text-sm md:text-xl">
-                    DOWNLOAD CV
-                  </p>
-                </button>
+                <DownloadCVButton />
               </div>
             </div>
             <motion.div
